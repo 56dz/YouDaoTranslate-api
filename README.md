@@ -248,6 +248,10 @@ npm test
 | 发音 | GET | `dict.youdao.com/pronounce/base` |
 | 发音（免签） | GET | `dict.youdao.com/dictvoice` |
 
+## 逆向过程
+
+抓包证据、密钥来源、签名算法的定位过程和完整踩坑记录见 [docs/reverse-engineering.md](docs/reverse-engineering.md)。
+
 ## 许可
 
 [GPL-3.0](LICENSE)
