@@ -1,0 +1,50 @@
+{
+  "name": "youdao-translate-api",
+  "version": "1.0.0",
+  "description": "有道翻译 Web 接口的非官方 Node.js 封装：语言检测、SSE 流式翻译、音标、发音音频",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "youdao": "./cli.js"
+  },
+  "files": [
+    "src",
+    "types",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs",
+    "example": "node examples/basic.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "youdao",
+    "translate",
+    "translation",
+    "fanyi",
+    "tts",
+    "phonetic",
+    "有道翻译",
+    "音标"
+  ],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/56dz/YouDaoTranslate-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/56dz/YouDaoTranslate-api/issues"
+  },
+  "homepage": "https://github.com/56dz/YouDaoTranslate-api#readme"
+}
